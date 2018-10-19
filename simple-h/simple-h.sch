@@ -20,7 +20,7 @@ U 1 1 5B9F11A1
 P 4400 1500
 F 0 "Q1" H 4741 1546 50  0000 L CNN
 F 1 "BTS7960B" H 4741 1455 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:TO-263-7_TabPin8" H 4200 1950 50  0001 C CNN
+F 2 "TO_SOT_Packages_SMD:TO-263-7_TabPin8" H 4200 1950 50  0001 C CNN
 F 3 "https://www.infineon.com/dgdl/Infineon-BTN8982TA-DS-v01_00-EN.pdf?fileId=db3a30433fa9412f013fbe32289b7c17" H 4350 1510 50  0001 C CNN
 	1    4400 1500
 	1    0    0    -1  
@@ -31,7 +31,7 @@ U 1 1 5B9F12F4
 P 4400 4150
 F 0 "Q2" H 4741 4196 50  0000 L CNN
 F 1 "BTS7960B" H 4741 4105 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:TO-263-7_TabPin8" H 4200 4600 50  0001 C CNN
+F 2 "TO_SOT_Packages_SMD:TO-263-7_TabPin8" H 4200 4600 50  0001 C CNN
 F 3 "https://www.infineon.com/dgdl/Infineon-BTN8982TA-DS-v01_00-EN.pdf?fileId=db3a30433fa9412f013fbe32289b7c17" H 4350 4160 50  0001 C CNN
 	1    4400 4150
 	1    0    0    -1  
@@ -72,24 +72,13 @@ $EndComp
 $Comp
 L Connector:Screw_Terminal_01x08 J2
 U 1 1 5B9F3BA4
-P 6550 4750
-F 0 "J2" H 6470 5267 50  0000 C CNN
-F 1 "CN1" H 6470 5176 50  0000 C CNN
-F 2 "w_conn_mpt:mpt_0,5%2f8-2,54" H 6550 4750 50  0001 C CNN
-F 3 "~" H 6550 4750 50  0001 C CNN
-	1    6550 4750
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Device:D_Schottky D4
-U 1 1 5BA7DEBF
-P 4900 1850
-F 0 "D4" V 4854 1929 50  0000 L CNN
-F 1 "D_Schottky" V 4945 1929 50  0000 L CNN
-F 2 "digikey-footprints:DO-214AB" H 4900 1850 50  0001 C CNN
-F 3 "~" H 4900 1850 50  0001 C CNN
-	1    4900 1850
-	0    1    1    0   
+P 6500 4950
+F 0 "J2" H 6420 5467 50  0000 C CNN
+F 1 "CN1" H 6420 5376 50  0000 C CNN
+F 2 "w_conn_mpt:mpt_0,5%2f8-2,54" H 6500 4950 50  0001 C CNN
+F 3 "~" H 6500 4950 50  0001 C CNN
+	1    6500 4950
+	-1   0    0    1   
 $EndComp
 $Comp
 L Device:CP1 C1
@@ -178,7 +167,7 @@ Wire Wire Line
 Wire Wire Line
 	4500 1900 4500 2200
 Wire Wire Line
-	3950 2100 3950 2500
+	3950 2100 3950 2350
 Wire Wire Line
 	3050 2100 3950 2100
 Wire Wire Line
@@ -199,17 +188,6 @@ F 2 "Pin_Headers:Pin_Header_Straight_2x04_Pitch2.54mm" H 2650 3400 50  0001 C CN
 F 3 "~" H 2650 3400 50  0001 C CNN
 	1    2650 3400
 	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D_Schottky D3
-U 1 1 5BA93AF1
-P 4950 4550
-F 0 "D3" V 4904 4629 50  0000 L CNN
-F 1 "D_Schottky" V 4995 4629 50  0000 L CNN
-F 2 "digikey-footprints:DO-214AB" H 4950 4550 50  0001 C CNN
-F 3 "~" H 4950 4550 50  0001 C CNN
-	1    4950 4550
-	0    1    1    0   
 $EndComp
 $Comp
 L Device:CP1 C2
@@ -363,14 +341,14 @@ Wire Wire Line
 Connection ~ 3000 3600
 Connection ~ 4900 1500
 Wire Wire Line
-	4500 800  4500 1000
+	4500 800  4500 900 
 Connection ~ 4500 1000
 Wire Wire Line
 	4500 1000 4500 1100
 Wire Wire Line
 	4900 1500 5150 1500
 Wire Wire Line
-	4500 3400 4500 3650
+	4500 3400 4500 3550
 Wire Wire Line
 	4500 3650 5650 3650
 Connection ~ 4500 3650
@@ -387,24 +365,13 @@ Connection ~ 4950 4150
 $Comp
 L Connector:Screw_Terminal_01x02 J3
 U 1 1 5BADE6CC
-P 1600 4800
-F 0 "J3" H 1679 4792 50  0000 L CNN
-F 1 "FAN" H 1679 4701 50  0000 L CNN
-F 2 "Connectors_Phoenix:PhoenixContact_MC-G_02x3.50mm_Angled" H 1600 4800 50  0001 C CNN
-F 3 "~" H 1600 4800 50  0001 C CNN
-	1    1600 4800
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D_Schottky D5
-U 1 1 5BAE3A10
-P 6500 3250
-F 0 "D5" V 6454 3329 50  0000 L CNN
-F 1 "D_Schottky" V 6545 3329 50  0000 L CNN
-F 2 "digikey-footprints:DO-214AB" H 6500 3250 50  0001 C CNN
-F 3 "~" H 6500 3250 50  0001 C CNN
-	1    6500 3250
-	0    1    1    0   
+P 1600 4900
+F 0 "J3" H 1679 4892 50  0000 L CNN
+F 1 "FAN" H 1679 4801 50  0000 L CNN
+F 2 "Connectors_Phoenix:PhoenixContact_MC-G_02x3.50mm_Angled" H 1600 4900 50  0001 C CNN
+F 3 "~" H 1600 4900 50  0001 C CNN
+	1    1600 4900
+	1    0    0    1   
 $EndComp
 $Comp
 L Device:CP1 C3
@@ -483,22 +450,6 @@ F 3 "" H 1300 4900 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	4900 2350 4900 2200
-Text GLabel 6750 4450 2    50   Input ~ 0
-CN1-1
-Text GLabel 6750 4550 2    50   Input ~ 0
-CN1-2
-Text GLabel 6750 4650 2    50   Input ~ 0
-CN1-3
-Text GLabel 6750 4750 2    50   Input ~ 0
-CN1-4
-Text GLabel 6750 4850 2    50   Input ~ 0
-CN1-5
-Text GLabel 6750 4950 2    50   Input ~ 0
-CN1-6
-Text GLabel 6750 5050 2    50   Input ~ 0
-CN1-7
-Text GLabel 6750 5150 2    50   Input ~ 0
-CN1-8
 Wire Wire Line
 	1300 4800 1400 4800
 Wire Wire Line
@@ -573,7 +524,7 @@ Wire Wire Line
 Wire Wire Line
 	2750 4350 3000 4350
 Wire Wire Line
-	3000 4550 3000 4350
+	3000 4550 3000 4450
 Connection ~ 3000 4350
 Wire Wire Line
 	3000 4350 4100 4350
@@ -623,7 +574,7 @@ U 1 1 5BBD2773
 P 5350 1500
 F 0 "J4" H 5430 1542 50  0000 L CNN
 F 1 "M1" H 5430 1451 50  0000 L CNN
-F 2 "" H 5350 1500 50  0001 C CNN
+F 2 "custom_footprint:keystone_7693" H 5350 1500 50  0001 C CNN
 F 3 "~" H 5350 1500 50  0001 C CNN
 	1    5350 1500
 	1    0    0    -1  
@@ -638,7 +589,7 @@ U 1 1 5BBDC458
 P 5350 4150
 F 0 "J5" H 5430 4192 50  0000 L CNN
 F 1 "M2" H 5430 4101 50  0000 L CNN
-F 2 "" H 5350 4150 50  0001 C CNN
+F 2 "custom_footprint:keystone_7693" H 5350 4150 50  0001 C CNN
 F 3 "~" H 5350 4150 50  0001 C CNN
 	1    5350 4150
 	1    0    0    -1  
@@ -651,7 +602,7 @@ U 1 1 5BBDD311
 P 7300 2900
 F 0 "J6" H 7379 2942 50  0000 L CNN
 F 1 "B+" H 7379 2851 50  0000 L CNN
-F 2 "" H 7300 2900 50  0001 C CNN
+F 2 "custom_footprint:keystone_7693" H 7300 2900 50  0001 C CNN
 F 3 "~" H 7300 2900 50  0001 C CNN
 	1    7300 2900
 	1    0    0    -1  
@@ -663,32 +614,12 @@ U 1 1 5BBDD3DA
 P 7300 3600
 F 0 "J7" H 7379 3642 50  0000 L CNN
 F 1 "B-" H 7379 3551 50  0000 L CNN
-F 2 "" H 7300 3600 50  0001 C CNN
+F 2 "custom_footprint:keystone_7693" H 7300 3600 50  0001 C CNN
 F 3 "~" H 7300 3600 50  0001 C CNN
 	1    7300 3600
 	1    0    0    -1  
 $EndComp
 Connection ~ 7100 3600
-Wire Wire Line
-	1150 4950 1200 4950
-Wire Wire Line
-	1150 4750 1200 4750
-Text GLabel 1150 4950 0    50   Input ~ 0
-CN1-8
-Text GLabel 1150 4750 0    50   Input ~ 0
-CN1-7
-Text GLabel 1150 4350 0    50   Input ~ 0
-CN1-6
-Text GLabel 1150 4150 0    50   Input ~ 0
-CN1-2
-Text GLabel 1150 3950 0    50   Input ~ 0
-CN1-5
-Text GLabel 1150 1650 0    50   Input ~ 0
-CN1-4
-Text GLabel 1150 1450 0    50   Input ~ 0
-CN1-1
-Text GLabel 1150 1250 0    50   Input ~ 0
-CN1-3
 Connection ~ 2000 4100
 Wire Wire Line
 	2000 4100 3300 4100
@@ -730,4 +661,253 @@ Text Label 3600 5800 0    50   ~ 0
 M1
 Text Label 4450 5800 0    50   ~ 0
 M2
+$Comp
+L power:PWR_FLAG #FLG0101
+U 1 1 5BC01855
+P 4800 800
+F 0 "#FLG0101" H 4800 875 50  0001 C CNN
+F 1 "PWR_FLAG" H 4800 974 50  0000 C CNN
+F 2 "" H 4800 800 50  0001 C CNN
+F 3 "~" H 4800 800 50  0001 C CNN
+	1    4800 800 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4800 800  4800 900 
+Wire Wire Line
+	4800 900  4500 900 
+Connection ~ 4500 900 
+Wire Wire Line
+	4500 900  4500 1000
+$Comp
+L power:PWR_FLAG #FLG0102
+U 1 1 5BC05235
+P 3250 4550
+F 0 "#FLG0102" H 3250 4625 50  0001 C CNN
+F 1 "PWR_FLAG" H 3250 4723 50  0000 C CNN
+F 2 "" H 3250 4550 50  0001 C CNN
+F 3 "~" H 3250 4550 50  0001 C CNN
+	1    3250 4550
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3250 4550 3250 4450
+Wire Wire Line
+	3250 4450 3000 4450
+Connection ~ 3000 4450
+Wire Wire Line
+	3000 4450 3000 4350
+$Comp
+L power:PWR_FLAG #FLG0103
+U 1 1 5BC096E9
+P 4750 3400
+F 0 "#FLG0103" H 4750 3475 50  0001 C CNN
+F 1 "PWR_FLAG" H 4750 3574 50  0000 C CNN
+F 2 "" H 4750 3400 50  0001 C CNN
+F 3 "~" H 4750 3400 50  0001 C CNN
+	1    4750 3400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4750 3400 4750 3550
+Wire Wire Line
+	4750 3550 4500 3550
+Connection ~ 4500 3550
+Wire Wire Line
+	4500 3550 4500 3650
+$Comp
+L power:PWR_FLAG #FLG0104
+U 1 1 5BC0D42C
+P 3700 2500
+F 0 "#FLG0104" H 3700 2575 50  0001 C CNN
+F 1 "PWR_FLAG" H 3700 2673 50  0000 C CNN
+F 2 "" H 3700 2500 50  0001 C CNN
+F 3 "~" H 3700 2500 50  0001 C CNN
+	1    3700 2500
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3700 2500 3700 2350
+Wire Wire Line
+	3700 2350 3950 2350
+Connection ~ 3950 2350
+Wire Wire Line
+	3950 2350 3950 2500
+Text Label 6800 4550 0    50   ~ 0
+PWM-A
+Text Label 6800 4650 0    50   ~ 0
+PWM-B
+Text Label 6800 4750 0    50   ~ 0
+EN-A
+Text Label 6800 4850 0    50   ~ 0
+CURR-A
+Text Label 6800 4950 0    50   ~ 0
+EN-B
+Text Label 6800 5050 0    50   ~ 0
+CURR-B
+Text Label 6800 5150 0    50   ~ 0
+GND
+Text Label 6800 5250 0    50   ~ 0
+VDD
+Wire Wire Line
+	6700 4550 6800 4550
+Wire Wire Line
+	6700 4650 6800 4650
+Wire Wire Line
+	6700 4750 6800 4750
+Wire Wire Line
+	6700 4850 6800 4850
+Wire Wire Line
+	6700 4950 6800 4950
+Wire Wire Line
+	6700 5050 6800 5050
+Wire Wire Line
+	6700 5150 6800 5150
+Wire Wire Line
+	6700 5250 6800 5250
+Wire Wire Line
+	1050 4750 1200 4750
+Wire Wire Line
+	1050 4950 1200 4950
+Text Label 1100 4750 0    50   ~ 0
+VDD
+Text Label 1100 4950 0    50   ~ 0
+GND
+Text Label 6500 2900 0    50   ~ 0
+VDD
+Text Label 6550 3600 0    50   ~ 0
+GND
+Text Label 4750 3550 0    50   ~ 0
+VDD
+Text Label 5450 4850 0    50   ~ 0
+GND
+Text Label 3250 4450 0    50   ~ 0
+GND
+Text Label 3950 2200 0    50   ~ 0
+GND
+$Comp
+L Device:D_Schottky D4
+U 1 1 5BA7DEBF
+P 4900 1850
+F 0 "D4" V 4854 1929 50  0000 L CNN
+F 1 "D_Schottky" V 4945 1929 50  0000 L CNN
+F 2 "custom_footprint:DO-214AC_custom" H 4900 1850 50  0001 C CNN
+F 3 "~" H 4900 1850 50  0001 C CNN
+	1    4900 1850
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D_Schottky D5
+U 1 1 5BAE3A10
+P 6500 3250
+F 0 "D5" V 6454 3329 50  0000 L CNN
+F 1 "D_Schottky" V 6545 3329 50  0000 L CNN
+F 2 "custom_footprint:DO-214AC_custom" H 6500 3250 50  0001 C CNN
+F 3 "~" H 6500 3250 50  0001 C CNN
+	1    6500 3250
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D_Schottky D3
+U 1 1 5BA93AF1
+P 4950 4550
+F 0 "D3" V 4904 4629 50  0000 L CNN
+F 1 "D_Schottky" V 4995 4629 50  0000 L CNN
+F 2 "custom_footprint:DO-214AC_custom" H 4950 4550 50  0001 C CNN
+F 3 "~" H 4950 4550 50  0001 C CNN
+	1    4950 4550
+	0    1    1    0   
+$EndComp
+Text Label 5100 2200 0    50   ~ 0
+GND
+Text Label 4800 900  0    50   ~ 0
+VDD
+$Comp
+L Mechanical:MountingHole MH1
+U 1 1 5BC9BBEE
+P 1100 6450
+F 0 "MH1" H 1200 6496 50  0000 L CNN
+F 1 "MountingHole" H 1200 6405 50  0000 L CNN
+F 2 "Mounting_Holes:MountingHole_2.2mm_M2_Pad" H 1100 6450 50  0001 C CNN
+F 3 "~" H 1100 6450 50  0001 C CNN
+	1    1100 6450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole MH4
+U 1 1 5BC9C501
+P 1100 7050
+F 0 "MH4" H 1200 7096 50  0000 L CNN
+F 1 "MountingHole" H 1200 7005 50  0000 L CNN
+F 2 "Mounting_Holes:MountingHole_2.2mm_M2_Pad" H 1100 7050 50  0001 C CNN
+F 3 "~" H 1100 7050 50  0001 C CNN
+	1    1100 7050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole MH2
+U 1 1 5BC9C567
+P 1100 6650
+F 0 "MH2" H 1200 6696 50  0000 L CNN
+F 1 "MountingHole" H 1200 6605 50  0000 L CNN
+F 2 "Mounting_Holes:MountingHole_2.2mm_M2_Pad" H 1100 6650 50  0001 C CNN
+F 3 "~" H 1100 6650 50  0001 C CNN
+	1    1100 6650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole MH5
+U 1 1 5BC9C5C3
+P 1850 6650
+F 0 "MH5" H 1950 6696 50  0000 L CNN
+F 1 "MountingHole" H 1950 6605 50  0000 L CNN
+F 2 "Mounting_Holes:MountingHole_4.3mm_M4" H 1850 6650 50  0001 C CNN
+F 3 "~" H 1850 6650 50  0001 C CNN
+	1    1850 6650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole MH3
+U 1 1 5BC9C615
+P 1100 6850
+F 0 "MH3" H 1200 6896 50  0000 L CNN
+F 1 "MountingHole" H 1200 6805 50  0000 L CNN
+F 2 "Mounting_Holes:MountingHole_2.2mm_M2_Pad" H 1100 6850 50  0001 C CNN
+F 3 "~" H 1100 6850 50  0001 C CNN
+	1    1100 6850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole MH7
+U 1 1 5BC9C94C
+P 1850 7050
+F 0 "MH7" H 1950 7096 50  0000 L CNN
+F 1 "MountingHole" H 1950 7005 50  0000 L CNN
+F 2 "Mounting_Holes:MountingHole_4.3mm_M4" H 1850 7050 50  0001 C CNN
+F 3 "~" H 1850 7050 50  0001 C CNN
+	1    1850 7050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole MH6
+U 1 1 5BC9C9C4
+P 1850 6850
+F 0 "MH6" H 1950 6896 50  0000 L CNN
+F 1 "MountingHole" H 1950 6805 50  0000 L CNN
+F 2 "Mounting_Holes:MountingHole_4.3mm_M4" H 1850 6850 50  0001 C CNN
+F 3 "~" H 1850 6850 50  0001 C CNN
+	1    1850 6850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole MH8
+U 1 1 5BC9CA1C
+P 1850 7250
+F 0 "MH8" H 1950 7296 50  0000 L CNN
+F 1 "MountingHole" H 1950 7205 50  0000 L CNN
+F 2 "Mounting_Holes:MountingHole_4.3mm_M4" H 1850 7250 50  0001 C CNN
+F 3 "~" H 1850 7250 50  0001 C CNN
+	1    1850 7250
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
