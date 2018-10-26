@@ -1467,7 +1467,7 @@
     )
   )
 
-  (gr_text "Mínimos (Mayer 10 mils):\nGrillas: 1mm, 0.5mm\nVía: 1mm / 0.5mm\nMargen: 0.25mm\nPista: 0.25mm\nDist. a borde: 0.3mm\nTerminación: HASL" (at 206.73 65.1) (layer Dwgs.User)
+  (gr_text "Mínimos (Mayer 10 mils):\nGrillas: 1mm, 0.5mm\nVía: 0.8mm\nMargen: 0.25mm\nPista: 0.6mm, 0.8mm\nDist. a borde: 0.3mm\nTerminación: HASL" (at 206.73 65.1) (layer Dwgs.User)
     (effects (font (size 1.5 1.5) (thickness 0.3)) (justify left))
   )
   (dimension 63.5 (width 0.3) (layer Dwgs.User)

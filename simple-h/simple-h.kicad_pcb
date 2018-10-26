@@ -20,8 +20,8 @@
   )
 
   (layers
-    (0 F.Cu signal)
-    (31 B.Cu signal)
+    (0 F.Cu signal hide)
+    (31 B.Cu signal hide)
     (32 B.Adhes user)
     (33 F.Adhes user)
     (34 B.Paste user)
@@ -186,7 +186,7 @@
       (net 12 GND))
     (pad 1 thru_hole rect (at 1.75 -0.7 90) (size 2.4 2.4) (drill 1.2) (layers *.Cu *.Mask F.SilkS)
       (net 11 VDD))
-    (model ${KIPRJMOD}/models/37875.stp
+    (model ${KIPRJMOD}/shapes3D/37875.wrl
       (offset (xyz -3.75 -2.9 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 90))
@@ -237,7 +237,7 @@
       (net 12 GND))
     (pad 1 smd rect (at -2 0 270) (size 2.5 1.7) (layers F.Cu F.Paste F.Mask)
       (net 11 VDD))
-    (model ${KIPRJMOD}/models/D_SMA.step
+    (model ${KIPRJMOD}/shapes3D/D_SMA.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1.4 1.2 1))
       (rotate (xyz 0 0 0))
@@ -288,7 +288,7 @@
       (net 3 /M1))
     (pad 2 smd rect (at 2 0 270) (size 2.5 1.7) (layers F.Cu F.Paste F.Mask)
       (net 12 GND))
-    (model ${KIPRJMOD}/models/D_SMA.step
+    (model ${KIPRJMOD}/shapes3D/D_SMA.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1.4 1.2 1))
       (rotate (xyz 0 0 0))
@@ -339,7 +339,7 @@
       (net 12 GND))
     (pad 1 smd rect (at -2 0 270) (size 2.5 1.7) (layers F.Cu F.Paste F.Mask)
       (net 4 /M2))
-    (model ${KIPRJMOD}/models/D_SMA.step
+    (model ${KIPRJMOD}/shapes3D/D_SMA.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1.4 1.2 1))
       (rotate (xyz 0 0 0))
@@ -474,7 +474,7 @@
       (net 3 /M1))
     (pad 1 smd rect (at -6.92 0) (size 1.85 13.7) (layers F.Cu F.Paste F.Mask)
       (net 3 /M1))
-    (model "${KIPRJMOD}/models/GULLWING HEATSINK.STEP"
+    (model "${KIPRJMOD}/shapes3D/GULLWING HEATSINK.wrl"
       (offset (xyz 0 6.5 7))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
@@ -529,7 +529,7 @@
       (net 4 /M2))
     (pad 1 smd rect (at -6.92 0) (size 1.85 13.7) (layers F.Cu F.Paste F.Mask)
       (net 4 /M2))
-    (model "${KIPRJMOD}/models/GULLWING HEATSINK.STEP"
+    (model "${KIPRJMOD}/shapes3D/GULLWING HEATSINK.wrl"
       (offset (xyz 0 6.5 7))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
@@ -565,7 +565,7 @@
       (net 11 VDD))
     (pad 2 smd rect (at 1.5 0 90) (size 1 1.6) (layers F.Cu F.Paste F.Mask)
       (net 12 GND))
-    (model ${KIPRJMOD}/models/C_1206_3216Metric.wrl
+    (model ${KIPRJMOD}/shapes3D/C_1206_3216Metric.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -601,7 +601,7 @@
       (net 12 GND))
     (pad 1 smd rect (at -1.5 0 90) (size 1 1.6) (layers F.Cu F.Paste F.Mask)
       (net 11 VDD))
-    (model ${KIPRJMOD}/models/C_1206_3216Metric.wrl
+    (model ${KIPRJMOD}/shapes3D/C_1206_3216Metric.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -658,7 +658,7 @@
       (net 12 GND))
     (pad 1 thru_hole rect (at 0 0 180) (size 2.4 2.4) (drill 1.2) (layers *.Cu *.Mask)
       (net 11 VDD))
-    (model ${KIPRJMOD}/models/CP_Axial_L20.0mm_D10.0mm_P26.00mm_Horizontal.wrl
+    (model ${KIPRJMOD}/shapes3D/CP_Axial_L20.0mm_D10.0mm_P26.00mm_Horizontal.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -693,7 +693,7 @@
       (net 1 "Net-(D1-Pad2)"))
     (pad 1 thru_hole rect (at 0 0 180) (size 1.8 1.8) (drill 0.9) (layers *.Cu *.Mask)
       (net 12 GND))
-    (model ${KIPRJMOD}/models/LED_D3.0mm.wrl
+    (model ${KIPRJMOD}/shapes3D/LED_D3.0mm.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -728,7 +728,7 @@
       (net 12 GND))
     (pad 2 thru_hole circle (at 2.54 0 180) (size 1.8 1.8) (drill 0.9) (layers *.Cu *.Mask)
       (net 2 "Net-(D2-Pad2)"))
-    (model ${KIPRJMOD}/models/LED_D3.0mm.wrl
+    (model ${KIPRJMOD}/shapes3D/LED_D3.0mm.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -782,7 +782,7 @@
       (net 6 "Net-(J1-Pad2)"))
     (pad 1 thru_hole rect (at 0 0 90) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 13 /EN-A))
-    (model ${KIPRJMOD}/models/PinHeader_2x04_P2.54mm_Vertical.wrl
+    (model ${KIPRJMOD}/shapes3D/PinHeader_2x04_P2.54mm_Vertical.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -830,7 +830,7 @@
       (net 12 GND))
     (pad 4 thru_hole oval (at 1.27 0) (size 1.99898 1.99898) (drill 1.09728) (layers *.Cu *.Mask F.SilkS)
       (net 14 /EN-B))
-    (model ${KIPRJMOD}/models/mpt_0,5-8-2,54.wrl
+    (model ${KIPRJMOD}/shapes3D/mpt_0,5-8-2,54.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -866,7 +866,7 @@
       (net 17 /PWM-A))
     (pad 2 smd rect (at 1.45 0 180) (size 0.9 1.7) (layers F.Cu F.Paste F.Mask)
       (net 2 "Net-(D2-Pad2)"))
-    (model ${KIPRJMOD}/models/R_1206_3216Metric.wrl
+    (model ${KIPRJMOD}/shapes3D/R_1206_3216Metric.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -902,7 +902,7 @@
       (net 17 /PWM-A))
     (pad 1 smd rect (at -1.45 0 270) (size 0.9 1.7) (layers F.Cu F.Paste F.Mask)
       (net 7 "Net-(Q1-Pad2)"))
-    (model ${KIPRJMOD}/models/R_1206_3216Metric.wrl
+    (model ${KIPRJMOD}/shapes3D/R_1206_3216Metric.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -938,7 +938,7 @@
       (net 8 "Net-(Q1-Pad3)"))
     (pad 2 smd rect (at 1.45 0 270) (size 0.9 1.7) (layers F.Cu F.Paste F.Mask)
       (net 13 /EN-A))
-    (model ${KIPRJMOD}/models/R_1206_3216Metric.wrl
+    (model ${KIPRJMOD}/shapes3D/R_1206_3216Metric.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -974,7 +974,7 @@
       (net 18 /PWM-B))
     (pad 2 smd rect (at 1.45 0 270) (size 0.9 1.7) (layers F.Cu F.Paste F.Mask)
       (net 1 "Net-(D1-Pad2)"))
-    (model ${KIPRJMOD}/models/R_1206_3216Metric.wrl
+    (model ${KIPRJMOD}/shapes3D/R_1206_3216Metric.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1010,7 +1010,7 @@
       (net 12 GND))
     (pad 1 smd rect (at -1.45 0 270) (size 0.9 1.7) (layers F.Cu F.Paste F.Mask)
       (net 15 /CURR-A))
-    (model ${KIPRJMOD}/models/R_1206_3216Metric.wrl
+    (model ${KIPRJMOD}/shapes3D/R_1206_3216Metric.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1046,7 +1046,7 @@
       (net 9 "Net-(Q2-Pad3)"))
     (pad 2 smd rect (at 1.45 0 270) (size 0.9 1.7) (layers F.Cu F.Paste F.Mask)
       (net 6 "Net-(J1-Pad2)"))
-    (model ${KISYS3DMOD}/Resistor_SMD.3dshapes/R_1206_3216Metric.wrl
+    (model ${KIPRJMOD}/shapes3D/R_1206_3216Metric.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1082,7 +1082,7 @@
       (net 16 /CURR-B))
     (pad 1 smd rect (at -1.45 0 270) (size 0.9 1.7) (layers F.Cu F.Paste F.Mask)
       (net 12 GND))
-    (model ${KISYS3DMOD}/Resistor_SMD.3dshapes/R_1206_3216Metric.wrl
+    (model ${KIPRJMOD}/shapes3D/R_1206_3216Metric.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1118,7 +1118,7 @@
       (net 18 /PWM-B))
     (pad 1 smd rect (at -1.45 0 270) (size 0.9 1.7) (layers F.Cu F.Paste F.Mask)
       (net 10 "Net-(Q2-Pad2)"))
-    (model ${KISYS3DMOD}/Resistor_SMD.3dshapes/R_1206_3216Metric.wrl
+    (model ${KIPRJMOD}/shapes3D/R_1206_3216Metric.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1203,7 +1203,7 @@
       (net 3 /M1))
     (pad 8 smd rect (at 0.95 2.775 90) (size 4.55 5.25) (layers F.Cu F.Paste)
       (net 3 /M1))
-    (model ${KIPRJMOD}/models/TO-263-7_TabPin8.wrl
+    (model ${KIPRJMOD}/shapes3D/TO-263-7_TabPin8.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1288,7 +1288,7 @@
       (net 10 "Net-(Q2-Pad2)"))
     (pad 1 smd rect (at -5.775 -3.81 90) (size 4.6 0.8) (layers F.Cu F.Paste F.Mask)
       (net 12 GND))
-    (model ${KIPRJMOD}/models/TO-263-7_TabPin8.wrl
+    (model ${KIPRJMOD}/shapes3D/TO-263-7_TabPin8.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1376,7 +1376,7 @@
       (net 3 /M1))
     (pad 1 thru_hole circle (at 4.93 -0.03 90) (size 2.9 2.9) (drill 1.85) (layers *.Cu *.Mask)
       (net 3 /M1))
-    (model ${KIPRJMOD}/models/keystone-PN7693.STEP
+    (model ${KIPRJMOD}/shapes3D/keystone-PN7693.wrl
       (offset (xyz 2 -1 2.5))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 90))
@@ -1404,7 +1404,7 @@
       (net 4 /M2))
     (pad 1 thru_hole circle (at 4.93 -0.03 90) (size 2.9 2.9) (drill 1.85) (layers *.Cu *.Mask)
       (net 4 /M2))
-    (model ${KIPRJMOD}/models/keystone-PN7693.STEP
+    (model ${KIPRJMOD}/shapes3D/keystone-PN7693.wrl
       (offset (xyz 2 -1 2.5))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 90))
@@ -1432,7 +1432,7 @@
       (net 11 VDD))
     (pad 1 thru_hole circle (at 4.93 -0.03 90) (size 2.9 2.9) (drill 1.85) (layers *.Cu *.Mask)
       (net 11 VDD))
-    (model ${KIPRJMOD}/models/keystone-PN7693.STEP
+    (model ${KIPRJMOD}/shapes3D/keystone-PN7693.wrl
       (offset (xyz 2 -1 2.5))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 90))
@@ -1460,7 +1460,7 @@
       (net 12 GND))
     (pad 1 thru_hole circle (at -0.01 7.01 270) (size 2.9 2.9) (drill 1.85) (layers *.Cu *.Mask)
       (net 12 GND))
-    (model ${KIPRJMOD}/models/keystone-PN7693.STEP
+    (model ${KIPRJMOD}/shapes3D/keystone-PN7693.wrl
       (offset (xyz 2 -1 2.5))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 90))
